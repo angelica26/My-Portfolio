@@ -1,0 +1,260 @@
+body {
+	overflow-x: hidden;
+	
+}
+
+header {
+	position: relative;
+	width: auto;
+	height: 208px;
+	padding-left: 20px;
+}
+
+.nav {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+}
+
+.logo-pic {
+	display: inline;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 65px;
+
+}
+
+.icon-links {
+	display: inline-block;
+	position: absolute;	
+	right: 0;
+	bottom: 0;
+	
+
+}
+
+.github {
+	border-radius: 5px;
+}
+
+
+ul {
+	display: inline;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 10px;
+	
+
+}
+
+li {
+	display: inline;
+	font-size: 25px;
+	margin-right: 30px;
+	border-bottom: 1px solid black;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #8B0B0D;
+}
+
+/* mouse over link */
+a:hover {
+    color: #D71114;
+    
+}
+
+/* selected link */
+a:active {
+    color: #D71114;
+}
+
+.wrapper {
+	background-image: url("images/twohorseslg2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: initial;
+	width: 100%;
+	height: 1080px;
+	margin: 0;
+	display: inline-block;
+}
+
+.hide {
+	visibility: hidden;
+
+}
+
+#welcome {
+	width: 25%;
+	height: 270px;
+	background-color: #8B0B0D;
+	position: absolute;
+	top: 37%;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	border-radius: 5px;
+
+}
+
+
+
+h1 {
+	
+	font-size: 75px;
+	padding: 20px 20px 10px 20px;
+}
+
+#intro {
+	font-size: 20px;
+	padding: 10px 20px 20px 20px;
+	width: 90%;
+
+}
+
+.portfolio-content, #bio-contact {
+	width: 76%;
+	height: 800px;
+	margin: 0 auto;
+	background-image: url(images/transparency.png);
+	position: relative;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*border: solid black 3px;*/
+	position: relative;
+	top: -1000px;
+	padding-top: 35px;
+}
+
+#bio-contact {
+	height: 450px;
+	overflow-y: hidden;
+}
+
+.content-block {
+	width: 100%;
+	height: 250px;
+	padding: 20px;
+	position: relative;
+
+	/*border: 1px solid black;*/
+}
+
+
+.page-title {
+	width: 73.9%;
+	font-family: "Montserrat", sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	top: 83px;
+	/*margin-bottom: 20px;*/
+	background-image: url(images/transparency.png);
+}
+
+.caption {
+	display: inline;
+	position: absolute;
+	line-height: 218px;
+	margin-left: 20px;
+	font-family: "Inconsolata", monospace;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.title, .gd-title {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+
+.gd-content {
+	width: 77%;
+	height: auto;
+	margin: 0 auto;
+	background-image: url(images/transparency.png);
+	position: relative;
+	top: -800px;
+
+
+}
+
+.gd-title, .gd-pic {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.gd-block {
+	margin-bottom: 20px;
+}
+
+#bio-pic {
+	float: left;
+	padding: 10px 20px 20px 20px;
+}
+
+/*#bio {
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	background-image: url(images/transparency.png);
+	position: relative;
+	top: -800px;
+	overflow: auto;
+
+}*/
+
+#bio-text {
+	padding: 10px;
+	font-family: "Inconsolata", monospace;
+	font-weight: 400;
+	font-size: 18px;
+	width: 100%;
+
+}
+
+#inner-content {
+	width: 72%;
+	display: block;
+	margin: 0 auto;
+}
+
+#contact {
+	font-family: "Inconsolata", monospace;
+	font-size: 25px;
+	margin: 0 auto;
+	display: block;
+	width: 417px;
+	text-align: center;
+
+}
+
+video {
+	display: block;
+}
+
+#vid {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px;
+	width: 994px;
+	height: 655px;
+}
