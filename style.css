@@ -260,7 +260,102 @@ video {
 }
 
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 480px)  {
+	li {
+		font-size: 18px;
+		display: block;
+		border: none;
+		position: relative;
+		top: 7px;
+		margin-bottom: 5px;
+	}
+
+	.logo-pic {
+		margin-right: 15px;
+		width: 221.2px;
+		height: 138.6px;
+		position: relative;
+		top: 60px;
+	}
+	
+	.github, .linkedin {
+		width: 35px;
+		height: 35px;
+
+	}
+	
+	#welcome {
+		width: 400px;
+	}
+
+	h1 {
+		font-size: 45px;
+	}
+
+	#intro {
+		font-size: 18px;
+	}
+
+	.page-title {
+		font-size: 35px;
+		width: 70.5%;
+	}
+
+	#cake, #spiced, #sea-turtle {
+		width: 330px;
+		height: 426px;
+	}
+
+	#travel1, #travel2, #jamaica {
+		width: 497px;
+		height: 321.5px;
+	}
+
+	#winter-menu {
+		width: 330px;
+		height: 543.6px;
+	}
+
+	#spring-menu {
+		width: 330px;
+		height: 431.4px;
+	}
+
+	#saltyox-web {
+		width: 497px;
+		height: 373px;
+	}
+	
+	#t-shirt {
+		width: 500px;
+		height: 193px;
+	}
+
+/*	#bob {
+		width: 263.4px;
+		height: 129.6px;
+	}
+
+	#gif, #crystals, #psychic {
+		width: 264px;
+		height: 130.8px;
+	}*/
+
+	.caption {
+		display: block;
+		line-height: 18px;
+		margin-left: 0;
+		width: 440px;
+	}
+
+	#bio-pic {
+		width: 176px;
+		height: 196px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
 	li {
 		font-size: 23px;
 		display: block;
@@ -269,5 +364,66 @@ video {
 
 	.logo-pic {
 		margin-right: 25px;
+	}
+
+	h1 {
+		font-size: 65px;
+	}
+
+	.page-title {
+		font-size: 35px;
+		width: 70.5%;
+	}
+
+	#cake, #spiced, #sea-turtle {
+		width: 330px;
+		height: 426px;
+	}
+
+	#travel1, #travel2, #jamaica {
+		width: 497px;
+		height: 321.5px;
+	}
+
+	#winter-menu {
+		width: 330px;
+		height: 543.6px;
+	}
+
+	#spring-menu {
+		width: 330px;
+		height: 431.4px;
+	}
+
+	#saltyox-web {
+		width: 497px;
+		height: 373px;
+	}
+	
+	#t-shirt {
+		width: 500px;
+		height: 193px;
+	}
+
+/*	#bob {
+		width: 263.4px;
+		height: 129.6px;
+	}
+
+	#gif, #crystals, #psychic {
+		width: 264px;
+		height: 130.8px;
+	}*/
+
+	.caption {
+		display: block;
+		line-height: 18px;
+		margin-left: 0;
+		width: 440px;
+	}
+
+	#bio-pic {
+		width: 176px;
+		height: 196px;
 	}
 }
