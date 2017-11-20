@@ -95,7 +95,7 @@ a:active {
 }
 
 #welcome {
-	width: 25%;
+	width: 450px;
 	height: 270px;
 	background-color: #8B0B0D;
 	position: absolute;
@@ -257,4 +257,17 @@ video {
 	padding: 15px;
 	width: 994px;
 	height: 655px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	li {
+		font-size: 23px;
+		display: block;
+		border: none;
+	}
+
+	.logo-pic {
+		margin-right: 25px;
+	}
 }
