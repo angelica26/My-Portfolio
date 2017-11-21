@@ -152,7 +152,7 @@ h1 {
 
 
 .page-title {
-	width: 73.9%;
+	
 	font-family: "Montserrat", sans-serif;
 	font-size: 45px;
 	font-weight: 300;
@@ -162,7 +162,7 @@ h1 {
 	margin: 0 auto;
 	top: 83px;
 	/*margin-bottom: 20px;*/
-	background-image: url(images/transparency.png);
+	
 }
 
 .caption {
@@ -261,6 +261,167 @@ video {
 
 
 
+/*=============================MEDIA QUERIES=======================================*/
+@media only screen and (max-width: 1650px) {
+	.portfolio-content {
+		width: 80%;
+	}
+
+	.caption {
+		display: block;
+		line-height: 18px;
+		margin-left: 0;
+		width: 440px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+
+	.content-block {
+		width: 440px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.portfolio-content {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+
+	.logo-pic {
+		margin-right: 45px;
+	}
+	
+
+
+
+
+}
+
+@media only screen and (max-width: 1285px) {
+	li {
+		font-size: 23px;
+	}
+
+.github, .linkedin {
+		width: 45px;
+		height: 45px;
+
+	}
+
+	.portfolio-content {
+		width: 93%;
+	}
+}
+
+@media only screen and (max-width: 1218px) {
+	li {
+		font-size: 20px;
+	}
+
+
+}
+
+/*@media only screen and (max-width: 1135px) {
+li {
+		font-size: 24px;
+		display: block;
+		border: none;
+		margin: 5px;
+	}
+
+	.logo-pic {
+		margin-right: 30px;
+	}
+	
+	.github, .linkedin {
+		width: 55px;
+		height: 55px;
+
+	}
+
+
+}	*/
+
+@media only screen and (max-width: 1135px) {
+	li {
+		font-size: 24px;
+		display: block;
+		border: none;
+		margin: 5px;
+	}
+
+	.logo-pic {
+		margin-right: 25px;
+	}
+	
+	.github, .linkedin {
+		width: 55px;
+		height: 55px;
+
+	}
+
+	h1 {
+		font-size: 65px;
+	}
+
+	.page-title {
+		font-size: 35px;
+		
+	}
+
+	#cake, #spiced, #sea-turtle {
+		width: 330px;
+		height: 426px;
+	}
+
+	#travel1, #travel2, #jamaica {
+		width: 497px;
+		height: 321.5px;
+	}
+
+	#winter-menu {
+		width: 330px;
+		height: 543.6px;
+	}
+
+	#spring-menu {
+		width: 330px;
+		height: 431.4px;
+	}
+
+	#saltyox-web {
+		width: 497px;
+		height: 373px;
+	}
+	
+	#t-shirt {
+		width: 500px;
+		height: 193px;
+	}
+/*leave web dev images same size and move text under it*/
+/*	#bob {
+		width: 263.4px;
+		height: 129.6px;
+	}
+
+	#gif, #crystals, #psychic {
+		width: 264px;
+		height: 130.8px;
+	}*/
+
+	
+
+	#bio-pic {
+		width: 176px;
+		height: 196px;
+	}
+}
+
+
 @media only screen and (max-width: 480px)  {
 	li {
 		font-size: 18px;
@@ -287,6 +448,7 @@ video {
 	
 	#welcome {
 		width: 400px;
+		height: 200px;
 	}
 
 	h1 {
@@ -299,40 +461,49 @@ video {
 
 	.page-title {
 		font-size: 35px;
-		width: 70.5%;
+		
+	}
+	
+	.portfolio-content {
+		width: 90%;
+
 	}
 
 	#cake, #spiced, #sea-turtle {
-		width: 330px;
-		height: 426px;
+		width: 264px;
+		height: 340.8px;
 	}
 
 	#travel1, #travel2, #jamaica {
-		width: 497px;
-		height: 321.5px;
+		width: 348.6px;
+		height: 225.05px;
 	}
 
 	#winter-menu {
-		width: 330px;
-		height: 543.6px;
+		width: 264px;
+		height: 434.88px;
 	}
 
 	#spring-menu {
-		width: 330px;
-		height: 431.4px;
+		width: 264px;
+		height: 345.12px;
 	}
 
 	#saltyox-web {
-		width: 497px;
-		height: 373px;
+		width: 347.9px;
+		height: 261.1px;
 	}
 	
 	#t-shirt {
-		width: 500px;
-		height: 193px;
+		width: 350px;
+		height: 135.1px;
 	}
 
-/*	#bob {
+	.content-block {
+		height: 200px;
+	}
+
+	#bob {
 		width: 263.4px;
 		height: 129.6px;
 	}
@@ -340,13 +511,14 @@ video {
 	#gif, #crystals, #psychic {
 		width: 264px;
 		height: 130.8px;
-	}*/
+	}
 
 	.caption {
 		display: block;
 		line-height: 18px;
 		margin-left: 0;
-		width: 440px;
+		width: 370px;
+		margin-top: 5px;
 	}
 
 	#bio-pic {
@@ -355,75 +527,4 @@ video {
 	}
 }
 
-@media only screen and (min-width: 768px) {
-	li {
-		font-size: 23px;
-		display: block;
-		border: none;
-	}
 
-	.logo-pic {
-		margin-right: 25px;
-	}
-
-	h1 {
-		font-size: 65px;
-	}
-
-	.page-title {
-		font-size: 35px;
-		width: 70.5%;
-	}
-
-	#cake, #spiced, #sea-turtle {
-		width: 330px;
-		height: 426px;
-	}
-
-	#travel1, #travel2, #jamaica {
-		width: 497px;
-		height: 321.5px;
-	}
-
-	#winter-menu {
-		width: 330px;
-		height: 543.6px;
-	}
-
-	#spring-menu {
-		width: 330px;
-		height: 431.4px;
-	}
-
-	#saltyox-web {
-		width: 497px;
-		height: 373px;
-	}
-	
-	#t-shirt {
-		width: 500px;
-		height: 193px;
-	}
-
-/*	#bob {
-		width: 263.4px;
-		height: 129.6px;
-	}
-
-	#gif, #crystals, #psychic {
-		width: 264px;
-		height: 130.8px;
-	}*/
-
-	.caption {
-		display: block;
-		line-height: 18px;
-		margin-left: 0;
-		width: 440px;
-	}
-
-	#bio-pic {
-		width: 176px;
-		height: 196px;
-	}
-}
